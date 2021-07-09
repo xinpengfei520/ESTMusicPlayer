@@ -38,6 +38,15 @@ DEPENDENCIES:
   - MBProgressHUD
   - SDWebImage
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - DOUAudioStreamer
+    - GVUserDefaults
+    - Mantle
+    - MBProgressHUD
+    - SDWebImage
+
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   DOUAudioStreamer: 8aefc3e80eb6c01ec89fa3c30743c660e8c55bae
@@ -46,4 +55,6 @@ SPEC CHECKSUMS:
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 0f72976c54c1b0264e668e4765a89a4933ac812f
+
+COCOAPODS: 1.10.1
