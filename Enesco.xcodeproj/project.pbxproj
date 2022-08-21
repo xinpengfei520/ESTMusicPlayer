@@ -38,6 +38,8 @@
 		56DBB02B1C116A280089EC56 /* music_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 56DBB02A1C116A280089EC56 /* music_list.json */; };
 		F34D68AF2698888E0040B6C9 /* Food.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F34D68AE2698888E0040B6C9 /* Food.mp3 */; };
 		F34D68B1269889F90040B6C9 /* Festivals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F34D68B0269889F80040B6C9 /* Festivals.mp3 */; };
+		F34D68B62699E1540040B6C9 /* SearchMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34D68B52699E1540040B6C9 /* SearchMusicViewController.m */; };
+		F34D68B92699E1D60040B6C9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34D68B82699E1D60040B6C9 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +118,10 @@
 		ED6E40C49F22AB1F37D1AA3E /* Pods-Enesco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enesco.debug.xcconfig"; path = "Target Support Files/Pods-Enesco/Pods-Enesco.debug.xcconfig"; sourceTree = "<group>"; };
 		F34D68AE2698888E0040B6C9 /* Food.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Food.mp3; sourceTree = "<group>"; };
 		F34D68B0269889F80040B6C9 /* Festivals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Festivals.mp3; sourceTree = "<group>"; };
+		F34D68B42699E1540040B6C9 /* SearchMusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchMusicViewController.h; sourceTree = "<group>"; };
+		F34D68B52699E1540040B6C9 /* SearchMusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchMusicViewController.m; sourceTree = "<group>"; };
+		F34D68B72699E1D60040B6C9 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F34D68B82699E1D60040B6C9 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +230,8 @@
 		5643E1811C0C2B34005D1A1C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F34D68B32699E06A0040B6C9 /* Login */,
+				F34D68B22699E01A0040B6C9 /* Search */,
 				5643E1B01C0C35F3005D1A1C /* Music */,
 				5643E1B31C0C35F3005D1A1C /* MusicList */,
 			);
@@ -408,6 +416,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F34D68B22699E01A0040B6C9 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				F34D68B42699E1540040B6C9 /* SearchMusicViewController.h */,
+				F34D68B52699E1540040B6C9 /* SearchMusicViewController.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		F34D68B32699E06A0040B6C9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F34D68B72699E1D60040B6C9 /* LoginViewController.h */,
+				F34D68B82699E1D60040B6C9 /* LoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -585,9 +611,11 @@
 				5643E1DD1C0C3E8B005D1A1C /* BaseHelper.m in Sources */,
 				5643E1981C0C3105005D1A1C /* MusicHandler.m in Sources */,
 				5643E1AD1C0C35CC005D1A1C /* MusicIndicator.m in Sources */,
+				F34D68B92699E1D60040B6C9 /* LoginViewController.m in Sources */,
 				5643E1EF1C0D3907005D1A1C /* NAKPlaybackIndicatorView.m in Sources */,
 				5643E19D1C0C3182005D1A1C /* GVUserDefaults+Properties.m in Sources */,
 				5643E1AE1C0C35CC005D1A1C /* MusicSlider.m in Sources */,
+				F34D68B62699E1540040B6C9 /* SearchMusicViewController.m in Sources */,
 				5643E1C41C0C3985005D1A1C /* BaseEntity.m in Sources */,
 				5643E1E01C0C3FF5005D1A1C /* MusicListCell.m in Sources */,
 				5643E1A51C0C3482005D1A1C /* NSString+Additions.m in Sources */,
